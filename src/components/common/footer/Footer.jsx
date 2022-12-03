@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <section className='newletter'>
-        <div className='container flexSB'>
+        <div className='container flexSB1'>
           <div className='textcenter'>
             <h1>Newsletter - Stay tune and get the latest update</h1>
             <span>Far far away, behind the word mountains</span>
