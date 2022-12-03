@@ -1,6 +1,7 @@
 .price .items {
   padding: 40px;
   text-align: center;
+  width: 40%;
 }
 .price h1 {
   font-size: 50px;
@@ -45,3 +46,8 @@
 }
 
 /*--------------faq-------------*/
+@media screen and (max-width: 768px) {
+  .price .items {
+    width: 80%;
+  }
+}
