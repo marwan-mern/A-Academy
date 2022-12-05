@@ -8,11 +8,6 @@ const Footer = () => {
         <div className='container flexSB1'>
           <div className='textcenter'>
             <h1>Newsletter - Stay tune and get the latest update</h1>
-            <span>Far far away, behind the word mountains</span>
-          </div>
-          <div className='right'>
-            <input type='text' placeholder='Enter email address' />
-            <i className='fa fa-paper-plane'></i>
           </div>
         </div>
       </section>
@@ -41,16 +36,8 @@ const Footer = () => {
             <h3>Have a Questions?</h3>
             <ul>
               <li>
-                <i className='fa fa-map'></i>
-                203 Fake St
-              </li>
-              <li>
                 <i className='fa fa-phone-alt'></i>
                 +2 392 3929 210
-              </li>
-              <li>
-                <i className='fa fa-paper-plane'></i>
-                info@yourdomain.com
               </li>
             </ul>
           </div>

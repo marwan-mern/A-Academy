@@ -13,8 +13,8 @@ const HAbout = () => {
           <div className='coursesCard'>
             {/* copy code form  coursesCard */}
             <div className='grid2'>
-              {coursesCard.slice(0, 3).map((val) => (
-                <div className='items'>
+              {coursesCard.slice(0, 3).map((val,index) => (
+                <div key={index} className='items'>
                   <div className='content flex'>
                     <div className='left'>
                       <div className='img'>
@@ -32,9 +32,9 @@ const HAbout = () => {
                         <label htmlFor=''>(5.0)</label>
                       </div>
                       <div className='details'>
-                        {val.courTeacher.map((details) => (
+                        {val.courTeacher.map((details,index) => (
                           <>
-                            <div className='box'>
+                            <div key={index} className='box'>
                               <div className='dimg'>
                                 <img src={details.dcover} alt='' />
                               </div>
